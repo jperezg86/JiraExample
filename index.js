@@ -23,6 +23,8 @@ app.get('/gira-connection', (req,res)=> {
         apiVersion: '2',
         strictSSL: true
       });
+
+      
       jira.findIssue("JMCCP-3")
       .then(issue => {
         res.send(`Status: ${issue.fields.status.name}`);
