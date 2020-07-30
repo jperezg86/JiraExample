@@ -1,0 +1,26 @@
+{
+  "name": "jiraconnection",
+  "version": "1.0.0",
+  "description": "This is a test to connect with Jira API",
+  "main": "other.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "nodemon --inspect index.js",
+    "start": "nodemon index.js",
+    "start-other": "nodemon index.js"
+  },
+  "keywords": [
+    "jira",
+    "nodejs",
+    "express"
+  ],
+  "author": "jperezg86",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jira-client": "^6.18.0",
+    "oauth": "^0.9.15"
+  }
+}
